@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-wpu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimaafrizal/tailwind-wpu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimaafrizal/tailwind-wpu/issues"
+  },
+  "homepage": "https://github.com/bimaafrizal/tailwind-wpu#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "tailwindcss": "^3.2.1"
+  }
+}
